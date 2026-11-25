@@ -1,0 +1,1 @@
+sudo apt install cmake libcurl4-openssl-dev libjson-c-dev qt6-*dev
