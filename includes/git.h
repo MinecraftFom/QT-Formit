@@ -27,18 +27,11 @@ struct GitUserAuth
 {
     GitUser        User;
     char          *UserToken;
-
-    long long      StartTime;
-    long long      EndTime;
-    int           *ExpireStatus;
-    int           *ExpireTimer;
 };
 
 #ifdef __cplusplus
-extern "C" GitUserAuth Auth  (GitClientInfo ClientInfo);
-extern "C" void        ReAuth(GitUserAuth *Auth, GitClientInfo ClientInfo);
+extern "C" GitUserAuth Auth(GitClientInfo ClientInfo);
 #else
 GitUserAuth Auth(GitClientInfo ClientInfo);
-void        ReAuth(GitUserAuth *Auth, GitClientInfo ClientInfo);
 #endif
 #endif
