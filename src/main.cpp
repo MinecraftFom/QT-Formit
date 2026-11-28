@@ -1,11 +1,8 @@
-#include <cstdio>
-#include <cstdlib>
+#include <config.h>
 
 int main(int argc, char *argv[])
 {
-    // Preconfiguration
-    fflush(stdout);
-    fflush(stderr);
+    SetupConfigs();
 
     return 0;
 }
