@@ -27,6 +27,9 @@ struct GitUserAuth
 {
     GitUser        User;
     char          *UserToken;
+
+    long long      StartTime;
+    long long      EndTime;
     int           *ExpireTimer;
 };
 
