@@ -1,3 +1,6 @@
+// Code written by Fom477
+// Copyright Fom477 2026
+
 #include <config.h>
 #include <stdio.h>
 
