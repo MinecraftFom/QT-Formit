@@ -26,7 +26,8 @@ struct GitUser
 struct GitUserAuth
 {
     GitUser        User;
-    const char    *UserToken;
+    char          *UserToken;
+    int           *ExpireTimer;
 };
 
 #ifdef __cplusplus
